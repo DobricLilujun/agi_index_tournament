@@ -1,0 +1,7 @@
+nltk>=3.9.2
+pandas>=2.3.2
+sacremoses>=0.1.1
+sentencepiece>=0.2.1
+spacy>=3.8.7
+torch>=2.8.0
+transformers>=4.57.0
