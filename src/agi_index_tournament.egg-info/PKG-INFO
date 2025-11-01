@@ -11,3 +11,4 @@ Requires-Dist: sentencepiece>=0.2.1
 Requires-Dist: spacy>=3.8.7
 Requires-Dist: torch>=2.8.0
 Requires-Dist: transformers>=4.57.0
+Requires-Dist: wn>=0.13.0

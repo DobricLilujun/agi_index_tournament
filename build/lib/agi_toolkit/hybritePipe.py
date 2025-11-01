@@ -89,7 +89,7 @@ class LocalBackTranslator:
     
 
 # ============ Core Hybrite Pipeline ============
-class HybritePipeline:
+class hybritePipe:
     def __init__(
         self,
         dict_map: Dict[str, List[str]] = None,

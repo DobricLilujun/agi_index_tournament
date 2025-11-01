@@ -5,8 +5,8 @@ src/agi_index_tournament.egg-info/SOURCES.txt
 src/agi_index_tournament.egg-info/dependency_links.txt
 src/agi_index_tournament.egg-info/requires.txt
 src/agi_index_tournament.egg-info/top_level.txt
+src/agi_toolkit/DictRewriter.py
 src/agi_toolkit/__init__.py
-src/agi_toolkit/dictRewrite.py
 src/agi_toolkit/evaluator.py
 src/agi_toolkit/hybritePipe.py
 src/agi_toolkit/styleRewrite.py
