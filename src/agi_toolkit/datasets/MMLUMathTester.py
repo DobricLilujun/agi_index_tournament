@@ -45,6 +45,7 @@ class MMLUMathTester:
 
         print(f"Loaded {len(self.dataset)} questions from MMLU Math")
 
+
     def test_single_question(self, question_data: Dict, model_answer: str) -> Dict:
 
         correct = model_answer.upper() == question_data["answer"]
@@ -89,6 +90,7 @@ class MMLUMathTester:
             "results": self.results,
         }
 
+    # Save results to a target files
     def save_results(self, filename="mmlu_math_results.json"):
 
         with open(filename, "w", encoding="utf-8") as f:

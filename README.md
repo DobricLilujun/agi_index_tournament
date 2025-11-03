@@ -1,8 +1,12 @@
 # AGI_INDEX_TOURNAMENT
 
-This project is 
+This project was developed to evaluate and showcase AGI index. Large language models, even multimodal large language models, and the reasoning models that emerged in 2025, have already come very close to and in some aspects even surpassed all current graduate students, whether in evaluation or problem-solving approaches. Sometimes they even have **"aha moments"** that produce thought processes beyond imagination. We believe that AGI is approaching very closely, but there are few benchmarks in the market that can systematically evaluate a model's AGI capabilities, because everyone has different definitions of AGI. Therefore, in this project, we define AGI as the comprehensive ability of a model or agent to draw inferences from one instance to another—that is, the model's ability to successfully solve and provide correct answers to complex problems it has never encountered before, which is what we call **"general."** To this end, we propose a tournament that systematically evaluates how far models are from achieving AGI across different capability focuses and difficulty levels.
+
+<div align=center><img src="agi_tournament_logo.png" width="80%"></div>
+
 
 ## Methods
+
 
 ## Datasets
 

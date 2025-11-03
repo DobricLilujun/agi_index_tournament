@@ -74,7 +74,7 @@ class DictRewriter:
         return results
 
     def rewrite(
-        self,
+        self,  
         text: str,
         ratio: float = 0.3,
         exclude_word_class: list = None,
