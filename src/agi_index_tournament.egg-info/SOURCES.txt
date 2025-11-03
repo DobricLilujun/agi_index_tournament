@@ -12,3 +12,17 @@ src/agi_toolkit/hybritePipe.py
 src/agi_toolkit/styleRewrite.py
 src/agi_toolkit/substitute.py
 src/agi_toolkit/translator.py
+src/agi_toolkit/datasets/MMLUMathTester.py
+src/agi_toolkit/datasets/test_equator.py
+src/agi_toolkit/datasets/test_gpqa_diamond.py
+src/agi_toolkit/datasets/test_gsm8k.py
+src/agi_toolkit/datasets/test_mme_reasoning.py
+src/agi_toolkit/datasets/test_thinkbench.py
+src/agi_toolkit/datasets/unified_test.py
+src/agi_toolkit/evaluators/EQUATOREvaluator.py
+src/agi_toolkit/evaluators/GPQADiamondEvaluator.py
+src/agi_toolkit/evaluators/GSM8KEvaluator.py
+src/agi_toolkit/evaluators/MMEReasoningEvaluator.py
+src/agi_toolkit/evaluators/MMLUEvaluator.py
+src/agi_toolkit/evaluators/ThinkBenchEvaluator.py
+src/agi_toolkit/evaluators/UnifiedEvaluator.py
