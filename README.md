@@ -30,3 +30,35 @@ This project was developed to evaluate and showcase AGI index. Large language mo
 | Agent               | Easy              | HumanEval (0.01K)                                            | Tool Calling                                      |                                      |
 | Agent               | Medium difficulty | MultiAgentBench (1K)                                         | AgentBench (0.6K)                                 |                                      |
 | Agent               | High difficulity  | WebArena (0.8K)                                              | Agent-SafetyBench (2k)                            |                                      |
+
+---
+
+## Changelog
+
+### [2026-01-02] Multi-Source Dictionary Integration
+
+#### Features Added
+
+**Multi-Source Dictionary System**
+- Integrated 4 synonym sources:
+  - `WordNet` - High-quality academic synonym database (Priority 1)
+  - `FastText` - Semantic similarity based on word vectors (Priority 2)
+  - `Sense2Vec` - Multi-sense word embeddings (Priority 2)
+  - `FASS` - Custom domain-specific synonym dictionary (Priority 3)
+
+- 4 aggregation strategies:
+  - `ranked` (default) - Priority-based ordering with deduplication
+  - `union` - Maximum coverage
+  - `intersection` - Common synonyms only
+  - `all` - All sources information for debugging
+
+**DictRewriter Enhancements**
+- Multi-source initialization with `sources`, `source_weights`, `aggregation_method` parameters
+- Runtime source switching via `set_sources()` method
+- Dynamic FASS dictionary loading with `add_fass_dictionary()` method
+- Per-call source override with `rewrite(..., sources=..., aggregation=...)`
+- Multi-source synonym retrieval in WSD results
+
+**New Methods**
+- `get_active_sources()` - Returns currently active sources
+- `get_available_sources()` - Lists all 4 available sources
