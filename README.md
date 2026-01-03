@@ -62,3 +62,18 @@ This project was developed to evaluate and showcase AGI index. Large language mo
 **New Methods**
 - `get_active_sources()` - Returns currently active sources
 - `get_available_sources()` - Lists all 4 available sources
+
+---
+
+### [2026-01-03] Back-Translation Rewriter System
+
+#### Features Added
+
+**BackTranslationRewriter**
+- Dual-backend architecture supporting both NLLB and ChatGPT-based back-translation
+- Line-by-line processing for NLLB backend to preserve document structure
+- Full-text processing for ChatGPT backend for better semantic coherence
+- Multi-pivot language support with configurable selection strategies
+
+
+
